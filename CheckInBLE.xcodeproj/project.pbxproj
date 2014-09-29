@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE710CE519C181660055EBA0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE710CE419C181660055EBA0 /* CoreData.framework */; };
+		BE710CE919C190700055EBA0 /* EmployeeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BE710CE819C190700055EBA0 /* EmployeeTool.m */; };
+		BE710CEF19C28B4F0055EBA0 /* EmployeeInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE710CED19C28B4F0055EBA0 /* EmployeeInfoCell.m */; };
+		BE710CF019C28B4F0055EBA0 /* EmployeeInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE710CEE19C28B4F0055EBA0 /* EmployeeInfoCell.xib */; };
+		BE710CF219C2D74B0055EBA0 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE710CF119C2D74B0055EBA0 /* CoreBluetooth.framework */; };
+		BEABF6B619C5D8B7001B9D5F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEABF6B519C5D8B7001B9D5F /* CoreLocation.framework */; };
+		BEADEDA119C685FA005805DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEADEDA019C685FA005805DB /* Images.xcassets */; };
+		BEC525B319C02290005D8EB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC525B219C02290005D8EB4 /* Foundation.framework */; };
+		BEC525B519C02290005D8EB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC525B419C02290005D8EB4 /* CoreGraphics.framework */; };
+		BEC525B719C02290005D8EB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC525B619C02290005D8EB4 /* UIKit.framework */; };
+		BEC525BD19C02290005D8EB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEC525BB19C02290005D8EB4 /* InfoPlist.strings */; };
+		BEC525BF19C02290005D8EB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC525BE19C02290005D8EB4 /* main.m */; };
+		BEC525C319C02290005D8EB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC525C219C02290005D8EB4 /* AppDelegate.m */; };
+		BEC525C619C02290005D8EB4 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC525C419C02290005D8EB4 /* Main_iPhone.storyboard */; };
+		BEC525C919C02290005D8EB4 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC525C719C02290005D8EB4 /* Main_iPad.storyboard */; };
+		BEC525CC19C02290005D8EB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC525CB19C02290005D8EB4 /* ViewController.m */; };
+		BEC525D519C02290005D8EB4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC525D419C02290005D8EB4 /* XCTest.framework */; };
+		BEC525D619C02290005D8EB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC525B219C02290005D8EB4 /* Foundation.framework */; };
+		BEC525D719C02290005D8EB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC525B619C02290005D8EB4 /* UIKit.framework */; };
+		BEC525DF19C02290005D8EB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEC525DD19C02290005D8EB4 /* InfoPlist.strings */; };
+		BEC525E119C02290005D8EB4 /* CheckInBLETests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC525E019C02290005D8EB4 /* CheckInBLETests.m */; };
+		BEC525EC19C03813005D8EB4 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC525EB19C03813005D8EB4 /* RootTableViewController.m */; };
+		BEC525EF19C0387D005D8EB4 /* AddEmployeeController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC525EE19C0387D005D8EB4 /* AddEmployeeController.m */; };
+		BEC525F219C03895005D8EB4 /* EditEmployeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC525F119C03895005D8EB4 /* EditEmployeeViewController.m */; };
+		BEC525F519C038A5005D8EB4 /* CheckInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC525F419C038A5005D8EB4 /* CheckInViewController.m */; };
+		BEC525F819C0390D005D8EB4 /* SendDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC525F719C0390D005D8EB4 /* SendDataViewController.m */; };
+		BEC525FB19C0394A005D8EB4 /* Employee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEC525F919C0394A005D8EB4 /* Employee.xcdatamodeld */; };
+		BEC525FE19C03A48005D8EB4 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC525FD19C03A48005D8EB4 /* Employee.m */; };
+		BEC89FE519C91A8D00814F2E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC89FE419C91A8D00814F2E /* AVFoundation.framework */; };
+		BEC89FE719C91A9F00814F2E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC89FE619C91A9F00814F2E /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEC525D819C02290005D8EB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEC525A719C02290005D8EB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEC525AE19C02290005D8EB4;
+			remoteInfo = CheckInBLE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE710CE419C181660055EBA0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BE710CE719C190700055EBA0 /* EmployeeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeTool.h; sourceTree = "<group>"; };
+		BE710CE819C190700055EBA0 /* EmployeeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeTool.m; sourceTree = "<group>"; };
+		BE710CEA19C193080055EBA0 /* singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singleton.h; sourceTree = "<group>"; };
+		BE710CEC19C28B4F0055EBA0 /* EmployeeInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeInfoCell.h; sourceTree = "<group>"; };
+		BE710CED19C28B4F0055EBA0 /* EmployeeInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeInfoCell.m; sourceTree = "<group>"; };
+		BE710CEE19C28B4F0055EBA0 /* EmployeeInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployeeInfoCell.xib; sourceTree = "<group>"; };
+		BE710CF119C2D74B0055EBA0 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		BEABF6B519C5D8B7001B9D5F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BEADEDA019C685FA005805DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BEC525AF19C02290005D8EB4 /* CheckInBLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckInBLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC525B219C02290005D8EB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BEC525B419C02290005D8EB4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BEC525B619C02290005D8EB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BEC525BA19C02290005D8EB4 /* CheckInBLE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckInBLE-Info.plist"; sourceTree = "<group>"; };
+		BEC525BC19C02290005D8EB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEC525BE19C02290005D8EB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEC525C019C02290005D8EB4 /* CheckInBLE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheckInBLE-Prefix.pch"; sourceTree = "<group>"; };
+		BEC525C119C02290005D8EB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEC525C219C02290005D8EB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEC525C519C02290005D8EB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		BEC525C819C02290005D8EB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		BEC525CA19C02290005D8EB4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BEC525CB19C02290005D8EB4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BEC525D319C02290005D8EB4 /* CheckInBLETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckInBLETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC525D419C02290005D8EB4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BEC525DC19C02290005D8EB4 /* CheckInBLETests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckInBLETests-Info.plist"; sourceTree = "<group>"; };
+		BEC525DE19C02290005D8EB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEC525E019C02290005D8EB4 /* CheckInBLETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckInBLETests.m; sourceTree = "<group>"; };
+		BEC525EA19C03813005D8EB4 /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		BEC525EB19C03813005D8EB4 /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		BEC525ED19C0387D005D8EB4 /* AddEmployeeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEmployeeController.h; sourceTree = "<group>"; };
+		BEC525EE19C0387D005D8EB4 /* AddEmployeeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEmployeeController.m; sourceTree = "<group>"; };
+		BEC525F019C03895005D8EB4 /* EditEmployeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditEmployeeViewController.h; sourceTree = "<group>"; };
+		BEC525F119C03895005D8EB4 /* EditEmployeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditEmployeeViewController.m; sourceTree = "<group>"; };
+		BEC525F319C038A5005D8EB4 /* CheckInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckInViewController.h; sourceTree = "<group>"; };
+		BEC525F419C038A5005D8EB4 /* CheckInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckInViewController.m; sourceTree = "<group>"; };
+		BEC525F619C0390D005D8EB4 /* SendDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendDataViewController.h; sourceTree = "<group>"; };
+		BEC525F719C0390D005D8EB4 /* SendDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendDataViewController.m; sourceTree = "<group>"; };
+		BEC525FA19C0394A005D8EB4 /* Employee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Employee.xcdatamodel; sourceTree = "<group>"; };
+		BEC525FC19C03A48005D8EB4 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		BEC525FD19C03A48005D8EB4 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		BEC89FE419C91A8D00814F2E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BEC89FE619C91A9F00814F2E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEC525AC19C02290005D8EB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC89FE719C91A9F00814F2E /* MediaPlayer.framework in Frameworks */,
+				BEC89FE519C91A8D00814F2E /* AVFoundation.framework in Frameworks */,
+				BEABF6B619C5D8B7001B9D5F /* CoreLocation.framework in Frameworks */,
+				BE710CF219C2D74B0055EBA0 /* CoreBluetooth.framework in Frameworks */,
+				BE710CE519C181660055EBA0 /* CoreData.framework in Frameworks */,
+				BEC525B519C02290005D8EB4 /* CoreGraphics.framework in Frameworks */,
+				BEC525B719C02290005D8EB4 /* UIKit.framework in Frameworks */,
+				BEC525B319C02290005D8EB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC525D019C02290005D8EB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC525D519C02290005D8EB4 /* XCTest.framework in Frameworks */,
+				BEC525D719C02290005D8EB4 /* UIKit.framework in Frameworks */,
+				BEC525D619C02290005D8EB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE710CE619C1904F0055EBA0 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				BE710CEA19C193080055EBA0 /* singleton.h */,
+				BE710CE719C190700055EBA0 /* EmployeeTool.h */,
+				BE710CE819C190700055EBA0 /* EmployeeTool.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		BE710CEB19C28AFF0055EBA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE710CEC19C28B4F0055EBA0 /* EmployeeInfoCell.h */,
+				BE710CED19C28B4F0055EBA0 /* EmployeeInfoCell.m */,
+				BE710CEE19C28B4F0055EBA0 /* EmployeeInfoCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BEC525A619C02290005D8EB4 = {
+			isa = PBXGroup;
+			children = (
+				BE710CEB19C28AFF0055EBA0 /* View */,
+				BE710CE619C1904F0055EBA0 /* Tool */,
+				BEC525FF19C03A54005D8EB4 /* Model */,
+				BEC525F619C0390D005D8EB4 /* SendDataViewController.h */,
+				BEC525F719C0390D005D8EB4 /* SendDataViewController.m */,
+				BEC525F319C038A5005D8EB4 /* CheckInViewController.h */,
+				BEC525F419C038A5005D8EB4 /* CheckInViewController.m */,
+				BEC525F019C03895005D8EB4 /* EditEmployeeViewController.h */,
+				BEC525F119C03895005D8EB4 /* EditEmployeeViewController.m */,
+				BEC525ED19C0387D005D8EB4 /* AddEmployeeController.h */,
+				BEC525EE19C0387D005D8EB4 /* AddEmployeeController.m */,
+				BEC525EA19C03813005D8EB4 /* RootTableViewController.h */,
+				BEC525EB19C03813005D8EB4 /* RootTableViewController.m */,
+				BEC525B819C02290005D8EB4 /* CheckInBLE */,
+				BEC525DA19C02290005D8EB4 /* CheckInBLETests */,
+				BEC525B119C02290005D8EB4 /* Frameworks */,
+				BEC525B019C02290005D8EB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEC525B019C02290005D8EB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEC525AF19C02290005D8EB4 /* CheckInBLE.app */,
+				BEC525D319C02290005D8EB4 /* CheckInBLETests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEC525B119C02290005D8EB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEC89FE619C91A9F00814F2E /* MediaPlayer.framework */,
+				BEC89FE419C91A8D00814F2E /* AVFoundation.framework */,
+				BEABF6B519C5D8B7001B9D5F /* CoreLocation.framework */,
+				BE710CF119C2D74B0055EBA0 /* CoreBluetooth.framework */,
+				BE710CE419C181660055EBA0 /* CoreData.framework */,
+				BEC525B219C02290005D8EB4 /* Foundation.framework */,
+				BEC525B419C02290005D8EB4 /* CoreGraphics.framework */,
+				BEC525B619C02290005D8EB4 /* UIKit.framework */,
+				BEC525D419C02290005D8EB4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEC525B819C02290005D8EB4 /* CheckInBLE */ = {
+			isa = PBXGroup;
+			children = (
+				BEADEDA019C685FA005805DB /* Images.xcassets */,
+				BEC525C119C02290005D8EB4 /* AppDelegate.h */,
+				BEC525C219C02290005D8EB4 /* AppDelegate.m */,
+				BEC525C419C02290005D8EB4 /* Main_iPhone.storyboard */,
+				BEC525C719C02290005D8EB4 /* Main_iPad.storyboard */,
+				BEC525CA19C02290005D8EB4 /* ViewController.h */,
+				BEC525CB19C02290005D8EB4 /* ViewController.m */,
+				BEC525B919C02290005D8EB4 /* Supporting Files */,
+			);
+			path = CheckInBLE;
+			sourceTree = "<group>";
+		};
+		BEC525B919C02290005D8EB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEC525BA19C02290005D8EB4 /* CheckInBLE-Info.plist */,
+				BEC525BB19C02290005D8EB4 /* InfoPlist.strings */,
+				BEC525BE19C02290005D8EB4 /* main.m */,
+				BEC525C019C02290005D8EB4 /* CheckInBLE-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEC525DA19C02290005D8EB4 /* CheckInBLETests */ = {
+			isa = PBXGroup;
+			children = (
+				BEC525E019C02290005D8EB4 /* CheckInBLETests.m */,
+				BEC525DB19C02290005D8EB4 /* Supporting Files */,
+			);
+			path = CheckInBLETests;
+			sourceTree = "<group>";
+		};
+		BEC525DB19C02290005D8EB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEC525DC19C02290005D8EB4 /* CheckInBLETests-Info.plist */,
+				BEC525DD19C02290005D8EB4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEC525FF19C03A54005D8EB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEC525F919C0394A005D8EB4 /* Employee.xcdatamodeld */,
+				BEC525FC19C03A48005D8EB4 /* Employee.h */,
+				BEC525FD19C03A48005D8EB4 /* Employee.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEC525AE19C02290005D8EB4 /* CheckInBLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC525E419C02290005D8EB4 /* Build configuration list for PBXNativeTarget "CheckInBLE" */;
+			buildPhases = (
+				BEC525AB19C02290005D8EB4 /* Sources */,
+				BEC525AC19C02290005D8EB4 /* Frameworks */,
+				BEC525AD19C02290005D8EB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckInBLE;
+			productName = CheckInBLE;
+			productReference = BEC525AF19C02290005D8EB4 /* CheckInBLE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEC525D219C02290005D8EB4 /* CheckInBLETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC525E719C02290005D8EB4 /* Build configuration list for PBXNativeTarget "CheckInBLETests" */;
+			buildPhases = (
+				BEC525CF19C02290005D8EB4 /* Sources */,
+				BEC525D019C02290005D8EB4 /* Frameworks */,
+				BEC525D119C02290005D8EB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC525D919C02290005D8EB4 /* PBXTargetDependency */,
+			);
+			name = CheckInBLETests;
+			productName = CheckInBLETests;
+			productReference = BEC525D319C02290005D8EB4 /* CheckInBLETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEC525A719C02290005D8EB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = CNPC;
+				TargetAttributes = {
+					BEC525D219C02290005D8EB4 = {
+						TestTargetID = BEC525AE19C02290005D8EB4;
+					};
+				};
+			};
+			buildConfigurationList = BEC525AA19C02290005D8EB4 /* Build configuration list for PBXProject "CheckInBLE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEC525A619C02290005D8EB4;
+			productRefGroup = BEC525B019C02290005D8EB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEC525AE19C02290005D8EB4 /* CheckInBLE */,
+				BEC525D219C02290005D8EB4 /* CheckInBLETests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEC525AD19C02290005D8EB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC525C919C02290005D8EB4 /* Main_iPad.storyboard in Resources */,
+				BEADEDA119C685FA005805DB /* Images.xcassets in Resources */,
+				BE710CF019C28B4F0055EBA0 /* EmployeeInfoCell.xib in Resources */,
+				BEC525C619C02290005D8EB4 /* Main_iPhone.storyboard in Resources */,
+				BEC525BD19C02290005D8EB4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC525D119C02290005D8EB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC525DF19C02290005D8EB4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEC525AB19C02290005D8EB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC525F219C03895005D8EB4 /* EditEmployeeViewController.m in Sources */,
+				BEC525CC19C02290005D8EB4 /* ViewController.m in Sources */,
+				BEC525F519C038A5005D8EB4 /* CheckInViewController.m in Sources */,
+				BEC525C319C02290005D8EB4 /* AppDelegate.m in Sources */,
+				BE710CE919C190700055EBA0 /* EmployeeTool.m in Sources */,
+				BE710CEF19C28B4F0055EBA0 /* EmployeeInfoCell.m in Sources */,
+				BEC525EF19C0387D005D8EB4 /* AddEmployeeController.m in Sources */,
+				BEC525FE19C03A48005D8EB4 /* Employee.m in Sources */,
+				BEC525BF19C02290005D8EB4 /* main.m in Sources */,
+				BEC525F819C0390D005D8EB4 /* SendDataViewController.m in Sources */,
+				BEC525FB19C0394A005D8EB4 /* Employee.xcdatamodeld in Sources */,
+				BEC525EC19C03813005D8EB4 /* RootTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC525CF19C02290005D8EB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC525E119C02290005D8EB4 /* CheckInBLETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEC525D919C02290005D8EB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEC525AE19C02290005D8EB4 /* CheckInBLE */;
+			targetProxy = BEC525D819C02290005D8EB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEC525BB19C02290005D8EB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC525BC19C02290005D8EB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BEC525C419C02290005D8EB4 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC525C519C02290005D8EB4 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BEC525C719C02290005D8EB4 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC525C819C02290005D8EB4 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BEC525DD19C02290005D8EB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC525DE19C02290005D8EB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEC525E219C02290005D8EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEC525E319C02290005D8EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEC525E519C02290005D8EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckInBLE/CheckInBLE-Prefix.pch";
+				INFOPLIST_FILE = "CheckInBLE/CheckInBLE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BEC525E619C02290005D8EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckInBLE/CheckInBLE-Prefix.pch";
+				INFOPLIST_FILE = "CheckInBLE/CheckInBLE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BEC525E819C02290005D8EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CheckInBLE.app/CheckInBLE";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckInBLE/CheckInBLE-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CheckInBLETests/CheckInBLETests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BEC525E919C02290005D8EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CheckInBLE.app/CheckInBLE";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckInBLE/CheckInBLE-Prefix.pch";
+				INFOPLIST_FILE = "CheckInBLETests/CheckInBLETests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEC525AA19C02290005D8EB4 /* Build configuration list for PBXProject "CheckInBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC525E219C02290005D8EB4 /* Debug */,
+				BEC525E319C02290005D8EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC525E419C02290005D8EB4 /* Build configuration list for PBXNativeTarget "CheckInBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC525E519C02290005D8EB4 /* Debug */,
+				BEC525E619C02290005D8EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC525E719C02290005D8EB4 /* Build configuration list for PBXNativeTarget "CheckInBLETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC525E819C02290005D8EB4 /* Debug */,
+				BEC525E919C02290005D8EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BEC525F919C0394A005D8EB4 /* Employee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BEC525FA19C0394A005D8EB4 /* Employee.xcdatamodel */,
+			);
+			currentVersion = BEC525FA19C0394A005D8EB4 /* Employee.xcdatamodel */;
+			path = Employee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BEC525A719C02290005D8EB4 /* Project object */;
+}
